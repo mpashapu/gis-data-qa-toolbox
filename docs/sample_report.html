@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>QA report: Parcels QA (sample)</title>
+<style>
+body{font-family:Segoe UI,Roboto,Arial,sans-serif;margin:24px;color:#1f2933;max-width:1100px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin-bottom:24px}
+th,td{border-bottom:1px solid #d9e2ec;padding:6px 8px;text-align:left;vertical-align:top}
+th{background:#f1f5f9} .n{text-align:right} .status{color:#b42318;font-weight:700}
+</style></head><body>
+<h1>Parcels QA (sample)</h1>
+<p class="status">FAIL</p>
+<p>20 records checked ·
+11 with issues · pass rate 45.0% ·
+8 errors · 3 warnings</p>
+<h2>Issues by rule</h2>
+<table><thead><tr><th>Rule</th><th class="n">Count</th><th>What it means</th></tr></thead>
+<tbody><tr><td><code>invalid_geometry</code></td><td class='n'>1</td><td>Self-intersections, bad ring order or duplicate vertices. Run Repair Geometry (ArcGIS) or make_valid (Shapely).</td></tr>
+<tr><td><code>duplicate_geometry</code></td><td class='n'>1</td><td>Identical shape already exists. Usually a duplicate load.</td></tr>
+<tr><td><code>duplicate_key</code></td><td class='n'>1</td><td>The ID field should be unique.</td></tr>
+<tr><td><code>required_field</code></td><td class='n'>1</td><td>A required value is missing.</td></tr>
+<tr><td><code>pattern</code></td><td class='n'>1</td><td>Value isn&#x27;t in the expected format (e.g. 13-digit folio, 5-digit ZIP).</td></tr>
+<tr><td><code>allowed_values</code></td><td class='n'>1</td><td>Value isn&#x27;t in the allowed list or coded domain.</td></tr>
+<tr><td><code>range</code></td><td class='n'>1</td><td>Number outside the expected range.</td></tr>
+<tr><td><code>future_date</code></td><td class='n'>1</td><td>Date is in the future or isn&#x27;t a date.</td></tr>
+<tr><td><code>sliver_polygon</code></td><td class='n'>1</td><td>Tiny polygon, often left over from overlay or digitizing. Merge or delete.</td></tr>
+<tr><td><code>outside_extent</code></td><td class='n'>1</td><td>Outside the expected area: wrong coordinate system, swapped coordinates, or a stray vertex.</td></tr>
+<tr><td><code>null_geometry</code></td><td class='n'>1</td><td>Feature has no shape. Redraw it or delete the record.</td></tr></tbody></table>
+<h2>Issues</h2>
+<table><thead><tr><th>Rule</th><th>Severity</th><th>OID</th><th>Field</th><th>Value</th><th>Message</th></tr></thead>
+<tbody><tr><td>invalid_geometry</td><td>ERROR</td><td>3</td><td></td><td></td><td>Invalid geometry: Self-intersection[-80.20485 25.75015]</td></tr>
+<tr><td>duplicate_geometry</td><td>WARNING</td><td>5</td><td></td><td>4</td><td>Same geometry as feature 4</td></tr>
+<tr><td>duplicate_key</td><td>ERROR</td><td>6</td><td>FOLIO</td><td>0141370071240</td><td>FOLIO duplicates feature 1</td></tr>
+<tr><td>required_field</td><td>ERROR</td><td>7</td><td>SITE_ADDR</td><td></td><td>SITE_ADDR is empty</td></tr>
+<tr><td>pattern</td><td>ERROR</td><td>8</td><td>FOLIO</td><td>30-4011-005-0010</td><td>FOLIO does not match the expected format</td></tr>
+<tr><td>allowed_values</td><td>ERROR</td><td>9</td><td>LAND_USE</td><td>XYZ</td><td>LAND_USE has a value outside the allowed list</td></tr>
+<tr><td>range</td><td>ERROR</td><td>10</td><td>YEAR_BUILT</td><td>2099</td><td>YEAR_BUILT is above the maximum 2026</td></tr>
+<tr><td>future_date</td><td>WARNING</td><td>11</td><td>SALE_DATE</td><td>2099-01-01</td><td>SALE_DATE is in the future</td></tr>
+<tr><td>sliver_polygon</td><td>WARNING</td><td>12</td><td></td><td>5.95</td><td>Area 5.9 m² is below 50.0 m²</td></tr>
+<tr><td>outside_extent</td><td>ERROR</td><td>13</td><td></td><td>25.76500,-80.19500,25.76530,-80.19473</td><td>Feature is outside the expected area (latitude/longitude swapped?)</td></tr>
+<tr><td>null_geometry</td><td>ERROR</td><td>14</td><td></td><td></td><td>Feature has no geometry</td></tr></tbody></table>
+</body></html>

@@ -1,0 +1,18 @@
+{
+  "name": "Parcels QA (sample)",
+  "key_field": "FOLIO",
+  "required_fields": ["FOLIO", "SITE_ADDR", "ZIP"],
+  "patterns": {
+    "FOLIO": "\\d{13}",
+    "ZIP": "\\d{5}"
+  },
+  "allowed_values": {
+    "LAND_USE": ["RES", "COM", "IND", "GOV", "VAC"]
+  },
+  "ranges": {
+    "YEAR_BUILT": { "min": 1850, "max": 2026 }
+  },
+  "no_future_dates": ["SALE_DATE"],
+  "min_area_m2": 50,
+  "extent_wgs84": [-80.88, 25.13, -80.11, 25.98]
+}

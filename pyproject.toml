@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gis-data-qa"
+version = "1.0.0"
+description = "Rule-based data quality checks for GIS data: an ArcGIS Pro toolbox and a license-free command line tool sharing one rules engine."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Malla Reddy Pashapu" }]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+# The command line tool; ArcGIS Pro users need none of these
+open = ["geopandas>=0.14", "pyogrio>=0.7", "pyproj>=3.6", "shapely>=2.0"]
+dev = ["gis-data-qa[open]", "pytest>=7", "pytest-cov>=4", "ruff>=0.5"]
+
+[project.scripts]
+gisqa = "gisqa.cli:main"
+
+[project.urls]
+Repository = "https://github.com/mpashapu/gis-data-qa-toolbox"
+
+[tool.setuptools]
+packages = ["gisqa"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py39"
+extend-include = ["*.pyt"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]

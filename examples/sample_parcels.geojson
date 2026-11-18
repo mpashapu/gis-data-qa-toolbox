@@ -1,0 +1,766 @@
+{
+ "type": "FeatureCollection",
+ "name": "sample_parcels",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.2,
+       25.76
+      ],
+      [
+       -80.1997009,
+       25.76
+      ],
+      [
+       -80.1997009,
+       25.7602695
+      ],
+      [
+       -80.2,
+       25.7602695
+      ],
+      [
+       -80.2,
+       25.76
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 1,
+    "FOLIO": "0141370071240",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1994,
+       25.76
+      ],
+      [
+       -80.1991009,
+       25.76
+      ],
+      [
+       -80.1991009,
+       25.7602695
+      ],
+      [
+       -80.1994,
+       25.7602695
+      ],
+      [
+       -80.1994,
+       25.76
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 2,
+    "FOLIO": "0141370071250",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "COM",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.205,
+       25.75
+      ],
+      [
+       -80.2047,
+       25.7503
+      ],
+      [
+       -80.2047,
+       25.75
+      ],
+      [
+       -80.205,
+       25.7503
+      ],
+      [
+       -80.205,
+       25.75
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 3,
+    "FOLIO": "0141370071260",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1988,
+       25.76
+      ],
+      [
+       -80.1985009,
+       25.76
+      ],
+      [
+       -80.1985009,
+       25.7602695
+      ],
+      [
+       -80.1988,
+       25.7602695
+      ],
+      [
+       -80.1988,
+       25.76
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 4,
+    "FOLIO": "0141370071270",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1988,
+       25.76
+      ],
+      [
+       -80.1985009,
+       25.76
+      ],
+      [
+       -80.1985009,
+       25.7602695
+      ],
+      [
+       -80.1988,
+       25.7602695
+      ],
+      [
+       -80.1988,
+       25.76
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 5,
+    "FOLIO": "0141370071280",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1982,
+       25.76
+      ],
+      [
+       -80.1979009,
+       25.76
+      ],
+      [
+       -80.1979009,
+       25.7602695
+      ],
+      [
+       -80.1982,
+       25.7602695
+      ],
+      [
+       -80.1982,
+       25.76
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 6,
+    "FOLIO": "0141370071240",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1976,
+       25.76
+      ],
+      [
+       -80.1973009,
+       25.76
+      ],
+      [
+       -80.1973009,
+       25.7602695
+      ],
+      [
+       -80.1976,
+       25.7602695
+      ],
+      [
+       -80.1976,
+       25.76
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 7,
+    "FOLIO": "0141370071300",
+    "SITE_ADDR": "",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.2,
+       25.7605
+      ],
+      [
+       -80.1997009,
+       25.7605
+      ],
+      [
+       -80.1997009,
+       25.7607695
+      ],
+      [
+       -80.2,
+       25.7607695
+      ],
+      [
+       -80.2,
+       25.7605
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 8,
+    "FOLIO": "30-4011-005-0010",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1994,
+       25.7605
+      ],
+      [
+       -80.1991009,
+       25.7605
+      ],
+      [
+       -80.1991009,
+       25.7607695
+      ],
+      [
+       -80.1994,
+       25.7607695
+      ],
+      [
+       -80.1994,
+       25.7605
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 9,
+    "FOLIO": "0141370071320",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "XYZ",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1988,
+       25.7605
+      ],
+      [
+       -80.1985009,
+       25.7605
+      ],
+      [
+       -80.1985009,
+       25.7607695
+      ],
+      [
+       -80.1988,
+       25.7607695
+      ],
+      [
+       -80.1988,
+       25.7605
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 10,
+    "FOLIO": "0141370071330",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 2099,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1982,
+       25.7605
+      ],
+      [
+       -80.1979009,
+       25.7605
+      ],
+      [
+       -80.1979009,
+       25.7607695
+      ],
+      [
+       -80.1982,
+       25.7607695
+      ],
+      [
+       -80.1982,
+       25.7605
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 11,
+    "FOLIO": "0141370071340",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2099-01-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.199,
+       25.764
+      ],
+      [
+       -80.1989801,
+       25.764
+      ],
+      [
+       -80.1989801,
+       25.7640269
+      ],
+      [
+       -80.199,
+       25.7640269
+      ],
+      [
+       -80.199,
+       25.764
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 12,
+    "FOLIO": "0141370071350",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       25.765,
+       -80.195
+      ],
+      [
+       25.7652991,
+       -80.195
+      ],
+      [
+       25.7652991,
+       -80.1947305
+      ],
+      [
+       25.765,
+       -80.1947305
+      ],
+      [
+       25.765,
+       -80.195
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 13,
+    "FOLIO": "0141370071360",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "PARCEL_ID": 14,
+    "FOLIO": "0141370071370",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1976,
+       25.7605
+      ],
+      [
+       -80.1973009,
+       25.7605
+      ],
+      [
+       -80.1973009,
+       25.7607695
+      ],
+      [
+       -80.1976,
+       25.7607695
+      ],
+      [
+       -80.1976,
+       25.7605
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 15,
+    "FOLIO": "0141370071400",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.2,
+       25.761
+      ],
+      [
+       -80.1997009,
+       25.761
+      ],
+      [
+       -80.1997009,
+       25.7612695
+      ],
+      [
+       -80.2,
+       25.7612695
+      ],
+      [
+       -80.2,
+       25.761
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 16,
+    "FOLIO": "0141370071401",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1994,
+       25.761
+      ],
+      [
+       -80.1991009,
+       25.761
+      ],
+      [
+       -80.1991009,
+       25.7612695
+      ],
+      [
+       -80.1994,
+       25.7612695
+      ],
+      [
+       -80.1994,
+       25.761
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 17,
+    "FOLIO": "0141370071402",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1988,
+       25.761
+      ],
+      [
+       -80.1985009,
+       25.761
+      ],
+      [
+       -80.1985009,
+       25.7612695
+      ],
+      [
+       -80.1988,
+       25.7612695
+      ],
+      [
+       -80.1988,
+       25.761
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 18,
+    "FOLIO": "0141370071403",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1982,
+       25.761
+      ],
+      [
+       -80.1979009,
+       25.761
+      ],
+      [
+       -80.1979009,
+       25.7612695
+      ],
+      [
+       -80.1982,
+       25.7612695
+      ],
+      [
+       -80.1982,
+       25.761
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 19,
+    "FOLIO": "0141370071404",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -80.1976,
+       25.761
+      ],
+      [
+       -80.1973009,
+       25.761
+      ],
+      [
+       -80.1973009,
+       25.7612695
+      ],
+      [
+       -80.1976,
+       25.7612695
+      ],
+      [
+       -80.1976,
+       25.761
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "PARCEL_ID": 20,
+    "FOLIO": "0141370071405",
+    "SITE_ADDR": "100 SAMPLE ST",
+    "ZIP": "33130",
+    "LAND_USE": "RES",
+    "YEAR_BUILT": 1995,
+    "SALE_DATE": "2021-06-15"
+   }
+  }
+ ]
+}
